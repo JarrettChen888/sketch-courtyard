@@ -779,7 +779,7 @@ function buildPractice() {
     </section>`
     ).join('\n    ')}
   </div>
-  <div class="container" style="margin-top:1.6rem">
+  <div class="container print-hide" style="margin-top:1.6rem">
     <p class="small muted">小提醒：打印用 A4 纸、竖着放，别选「缩放」，线条粗细刚好。</p>
   </div>
 </main>

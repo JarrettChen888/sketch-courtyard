@@ -1351,3 +1351,11 @@ html, body { overflow-x: hidden; }
   .qr-card { flex-direction: column; align-items: flex-start; gap: 1rem; }
   .qr-art img { width: 150px; height: 150px; }
 }
+
+/* ---------- 22. 打印时只留练习纸 ---------- */
+@media print {
+  .page-head, .sheet-toolbar, .print-hide { display: none !important; }
+  .sheet { break-after: page; page-break-after: always; }
+  .sheet:last-of-type { break-after: auto; page-break-after: auto; }
+  .sheet-head .sheet-print { display: none !important; }
+}
