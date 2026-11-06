@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-labelledby="t7">
+  <title id="t7">示意图：圆柱体上下两个椭圆与侧面排线，右边是水杯的杯口和杯底椭圆</title>
+  <rect width="640" height="420" fill="#FBF6EC"/>
+  <defs>
+    <pattern id="cylHatch" width="5.5" height="5.5" patternUnits="userSpaceOnUse" patternTransform="rotate(38)">
+      <line x1="0" y1="0" x2="0" y2="5.5" stroke="#5E5449" stroke-width="1.05" opacity=".55"/>
+    </pattern>
+    <pattern id="cupShadow" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(40)">
+      <line x1="0" y1="0" x2="0" y2="7" stroke="#7A6E61" stroke-width="1" opacity=".4"/>
+    </pattern>
+    <clipPath id="cylBody"><path d="M145 130 A105 28 0 0 1 355 130 L355 320 A105 28 0 0 1 145 320 Z"/></clipPath>
+    <clipPath id="cylRight"><rect x="268" y="98" width="96" height="260"/></clipPath>
+    <clipPath id="cupClip"><path d="M452 182 A48 12 0 0 1 548 182 L538 322 A38 10 0 0 1 462 322 Z"/></clipPath>
+    <clipPath id="cupRight"><rect x="506" y="168" width="46" height="170"/></clipPath>
+    <clipPath id="cylShadow"><ellipse cx="250" cy="352" rx="132" ry="18"/></clipPath>
+    <clipPath id="glassShadow"><ellipse cx="512" cy="350" rx="86" ry="14"/></clipPath>
+  </defs>
+
+  <!-- 光 -->
+  <g>
+    <path d="M96 78 L166 146" fill="none" stroke="#C8B48C" stroke-width="1.6" stroke-dasharray="4 4"/>
+    <path d="M155 136 L166 146 L150 148" fill="none" stroke="#C8B48C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="66" y="68" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#7A6E61">光</text>
+  </g>
+
+  <!-- 投影 -->
+  <g clip-path="url(#cylShadow)"><rect x="110" y="336" width="290" height="40" fill="url(#cupShadow)"/></g>
+  <g clip-path="url(#glassShadow)"><rect x="430" y="338" width="170" height="30" fill="url(#cupShadow)"/></g>
+
+  <!-- 圆柱 -->
+  <path d="M145 130 A105 28 0 0 1 355 130 L355 320 A105 28 0 0 1 145 320 Z" fill="#FFFDF8" stroke="#3B342C" stroke-width="2.3"/>
+  <g clip-path="url(#cylBody)"><g clip-path="url(#cylRight)"><rect x="260" y="100" width="110" height="250" fill="url(#cylHatch)"/></g></g>
+  <ellipse cx="250" cy="130" rx="105" ry="28" fill="none" stroke="#3B342C" stroke-width="2.3"/>
+  <path d="M145 320 A105 28 0 0 0 355 320" fill="none" stroke="#B9A98F" stroke-width="1.4" stroke-dasharray="5 5"/>
+  <path d="M240 132 C300 136 344 132 352 128" fill="none" stroke="#D8C8AB" stroke-width="1.2"/>
+  <!-- 底部前弧明暗 -->
+  <path d="M170 308 A105 28 0 0 0 330 316" fill="none" stroke="#8B7B66" stroke-width="1.1" opacity=".5"/>
+
+  <!-- 标注：圆柱 -->
+  <g stroke="#B9A98F" stroke-width="1.1" stroke-dasharray="3 4" fill="none">
+    <path d="M250 100 L250 74 L334 60"/>
+    <path d="M250 348 L250 380 L168 392"/>
+    <path d="M356 222 L392 222"/>
+  </g>
+  <circle cx="250" cy="100" r="3" fill="#A9553F"/>
+  <circle cx="250" cy="348" r="3" fill="#A9553F"/>
+  <text x="340" y="56" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#7A6E61">上下都是椭圆</text>
+  <text x="86" y="404" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#7A6E61">两边是平行的竖线</text>
+
+  <!-- 水杯 -->
+  <path d="M452 182 A48 12 0 0 1 548 182 L538 322 A38 10 0 0 1 462 322 Z" fill="#FFFDF8" stroke="#3B342C" stroke-width="2.3"/>
+  <g clip-path="url(#cupClip)"><g clip-path="url(#cupRight)"><rect x="500" y="170" width="60" height="170" fill="url(#cylHatch)"/></g></g>
+  <ellipse cx="500" cy="182" rx="48" ry="12" fill="none" stroke="#3B342C" stroke-width="2.3"/>
+  <ellipse cx="500" cy="188" rx="38" ry="8" fill="none" stroke="#B9A98F" stroke-width="1.1" stroke-dasharray="4 4"/>
+  <path d="M462 322 A38 10 0 0 0 538 322" fill="none" stroke="#3B342C" stroke-width="2"/>
+  <path d="M538 322 A38 10 0 0 1 462 322" fill="none" stroke="#B9A98F" stroke-width="1.2" stroke-dasharray="4 4"/>
+  <path d="M548 210 C576 214 576 272 546 278" fill="none" stroke="#3B342C" stroke-width="3"/>
+  <path d="M480 196 C496 192 516 196 530 202" fill="none" stroke="#D8C8AB" stroke-width="1.2"/>
+  <text x="452" y="368" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#7A6E61">杯口、杯底也是椭圆</text>
+
+  <text x="56" y="44" font-family="Songti SC, STSong, serif" font-size="15" fill="#A98D6B">直线和曲线，要配合着用</text>
+</svg>

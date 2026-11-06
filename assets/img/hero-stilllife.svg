@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="640" height="480" role="img" aria-labelledby="t1">
+  <title id="t1">素描小画：一只苹果和一只茶杯，旁边放着一支铅笔</title>
+  <rect width="640" height="480" fill="#FBF6EC"/>
+  <rect x="26" y="26" width="588" height="428" fill="none" stroke="#EADFCB" stroke-width="1.5"/>
+  <defs>
+    <pattern id="heroShadow" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(40)">
+      <line x1="0" y1="0" x2="0" y2="7" stroke="#7A6E61" stroke-width="1" opacity=".42"/>
+    </pattern>
+    <clipPath id="appleEllipse"><ellipse cx="252" cy="352" rx="98" ry="15"/></clipPath>
+    <clipPath id="cupEllipse"><ellipse cx="438" cy="378" rx="80" ry="12"/></clipPath>
+  </defs>
+
+  <!-- 投影：平涂排线 -->
+  <g clip-path="url(#appleEllipse)"><rect x="140" y="330" width="230" height="50" fill="url(#heroShadow)"/></g>
+  <g clip-path="url(#cupEllipse)"><rect x="350" y="360" width="180" height="40" fill="url(#heroShadow)"/></g>
+
+  <!-- 茶杯 -->
+  <g fill="none" stroke="#3B342C" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <ellipse cx="424" cy="238" rx="58" ry="15"/>
+    <path d="M366 238 C368 286 374 334 380 354 C386 370 402 376 424 376 C446 376 462 370 468 354 C474 334 480 286 482 238"/>
+    <path d="M367 244 C371 286 378 330 383 348 C389 362 404 368 424 368 C444 368 459 362 465 348 C470 330 477 286 481 244" stroke-width="1.2" opacity=".55"/>
+    <path d="M482 262 C512 262 514 302 482 306" stroke-width="3"/>
+    <path d="M375 352 C382 365 400 371 424 371 C448 371 466 365 472 352" stroke-width="1.4" opacity=".5"/>
+    <path d="M410 236 C426 233 444 237 454 243" stroke-width="1.2" opacity=".5"/>
+  </g>
+  <!-- 杯子暗面 -->
+  <g fill="none" stroke="#5E5449" stroke-width="1.1" opacity=".65" stroke-linecap="round">
+    <path d="M446 252 C456 268 460 296 455 330 C451 350 444 360 434 366"/>
+    <path d="M456 258 C466 276 470 300 465 330 C461 348 454 360 444 366"/>
+    <path d="M466 268 C474 286 477 306 473 330 C469 348 462 358 452 364"/>
+    <path d="M410 350 C420 362 438 366 452 360"/>
+    <path d="M396 352 C408 364 428 370 444 366"/>
+  </g>
+
+  <!-- 苹果 -->
+  <g fill="none" stroke="#3B342C" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M250 202 C230 192 205 200 194 222 C180 249 186 285 205 307 C220 325 240 332 256 326 C264 323 270 318 277 319 C286 320 292 326 302 322 C322 314 333 291 331 264 C329 236 313 215 293 209 C281 205 270 207 261 213 C256 216 253 211 250 202 Z"/>
+    <path d="M257 208 C254 188 258 172 268 160" stroke-width="2.8"/>
+    <path d="M268 160 C282 148 302 148 312 156 C302 170 283 174 268 160 Z"/>
+    <path d="M268 160 C280 156 296 155 308 158" stroke-width="1.1" opacity=".6"/>
+  </g>
+  <!-- 苹果暗面：顺着圆弧的排线 -->
+  <g fill="none" stroke="#5E5449" stroke-width="1.2" opacity=".7" stroke-linecap="round">
+    <path d="M300 215 C318 226 327 244 329 264"/>
+    <path d="M306 222 C322 235 330 252 331 270"/>
+    <path d="M310 234 C324 247 331 263 331 280"/>
+    <path d="M306 250 C318 262 324 278 323 292"/>
+    <path d="M296 264 C307 278 312 292 310 306"/>
+    <path d="M284 278 C293 292 296 305 293 317"/>
+    <path d="M262 290 C269 303 271 314 268 324"/>
+    <path d="M230 288 C236 302 241 314 242 324"/>
+    <path d="M206 284 C212 297 217 308 220 319"/>
+    <path d="M196 262 C203 276 209 288 213 299"/>
+    <path d="M196 238 C203 252 209 264 213 275"/>
+    <path d="M248 312 C258 322 270 325 280 321"/>
+    <path d="M264 228 C276 222 290 220 302 223"/>
+  </g>
+
+  <!-- 铅笔 -->
+  <g transform="rotate(-9 380 432)">
+    <rect x="236" y="424" width="20" height="14" rx="4" fill="#C98B7A" stroke="#3B342C" stroke-width="1.5"/>
+    <rect x="254" y="424" width="14" height="14" fill="#C9BBA0" stroke="#3B342C" stroke-width="1.5"/>
+    <rect x="268" y="424" width="168" height="14" rx="2" fill="#E9C97E" stroke="#3B342C" stroke-width="1.5"/>
+    <path d="M436 424 L472 431 L436 438 Z" fill="#F0DCB4" stroke="#3B342C" stroke-width="1.5"/>
+    <path d="M464 429.5 L472 431 L464 432.5 Z" fill="#3B342C"/>
+    <path d="M268 431 L436 431" stroke="#B99A52" stroke-width="1.2"/>
+  </g>
+
+  <text x="56" y="86" font-family="Songti SC, STSong, serif" font-size="16" fill="#A98D6B" letter-spacing="5">第 1 天</text>
+  <text x="72" y="112" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#B9A98F" letter-spacing="2">慢慢画，先看清再落笔</text>
+  <text x="416" y="440" font-family="Songti SC, STSong, serif" font-size="15" fill="#A98D6B" letter-spacing="3">素描小院</text>
+</svg>

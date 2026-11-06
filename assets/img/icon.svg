@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-labelledby="ic">
+  <title id="ic">素描小院图标：米色圆底上的一支铅笔</title>
+  <rect width="512" height="512" rx="112" fill="#FBF6EC"/>
+  <circle cx="256" cy="256" r="150" fill="#FFFDF8" stroke="#2B2622" stroke-width="14"/>
+  <path d="M168 344 L178 296 L300 174 A26 26 0 0 1 337 211 L215 333 Z" fill="none" stroke="#A9553F" stroke-width="18" stroke-linejoin="round"/>
+  <path d="M178 296 L215 333" stroke="#2B2622" stroke-width="10" stroke-linecap="round"/>
+  <path d="M140 390 C170 378 196 386 224 380 C252 374 276 386 304 380 C332 374 356 382 384 376" fill="none" stroke="#C89B3C" stroke-width="9" stroke-linecap="round" opacity=".8"/>
+</svg>

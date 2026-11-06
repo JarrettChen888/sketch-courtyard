@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 760" width="700" height="760" role="img" aria-labelledby="s3">
+  <title id="s3">练习纸：明暗调子条、叠排线练习和球体明暗</title>
+  <rect width="700" height="760" fill="#FFFDF8"/>
+  <g font-family="PingFang SC, Microsoft YaHei, sans-serif">
+
+    <text x="56" y="44" font-size="13" fill="#A99E8D">素描小院 · 练习纸 3</text>
+    <text x="540" y="44" font-size="13" fill="#A99E8D">日期：____________</text>
+
+    <!-- ① 调子条 -->
+    <text x="56" y="86" font-size="15" fill="#5E5449">① 调子条 · 一格一格画，从最浅到最黑</text>
+    <g>
+      <g stroke="#8B8074" stroke-width="1.2" fill="#FFFDF8">
+        <rect x="56" y="104" width="68" height="68"/>
+        <rect x="128" y="104" width="68" height="68"/>
+        <rect x="200" y="104" width="68" height="68"/>
+        <rect x="272" y="104" width="68" height="68"/>
+        <rect x="344" y="104" width="68" height="68"/>
+        <rect x="416" y="104" width="68" height="68"/>
+        <rect x="488" y="104" width="68" height="68"/>
+        <rect x="560" y="104" width="68" height="68"/>
+      </g>
+      <g font-size="12" fill="#B9AD9A">
+        <text x="82" y="196">1</text><text x="154" y="196">2</text><text x="226" y="196">3</text><text x="298" y="196">4</text>
+        <text x="370" y="196">5</text><text x="442" y="196">6</text><text x="514" y="196">7</text><text x="586" y="196">8</text>
+        <text x="56" y="218">浅</text><text x="612" y="218">深</text>
+      </g>
+      <path d="M56 236 H628" stroke="#CFC5B4" stroke-width="1" stroke-dasharray="2 6"/>
+    </g>
+
+    <!-- ② 叠排线 -->
+    <text x="56" y="278" font-size="15" fill="#5E5449">② 叠排线 · 一层一层叠，不要用力压</text>
+    <g>
+      <rect x="56" y="298" width="180" height="120" fill="#FFFDF8" stroke="#CFC5B4" stroke-width="1.4"/>
+      <rect x="256" y="298" width="180" height="120" fill="#FFFDF8" stroke="#CFC5B4" stroke-width="1.4"/>
+      <rect x="456" y="298" width="176" height="120" fill="#FFFDF8" stroke="#CFC5B4" stroke-width="1.4"/>
+      <g font-size="12" fill="#B9AD9A">
+        <text x="112" y="444">① 一层（很轻）</text>
+        <text x="312" y="444">② 两层（换方向）</text>
+        <text x="508" y="444">③ 三层（深下去）</text>
+      </g>
+      <g stroke="#8B8074" stroke-width="1" opacity=".5">
+        <path d="M72 314 L72 348 M80 314 L80 348 M88 314 L88 348 M96 314 L96 348 M104 314 L104 348 M112 314 L112 348"/>
+      </g>
+    </g>
+
+    <!-- ③ 球体明暗 -->
+    <text x="56" y="500" font-size="15" fill="#5E5449">③ 球体 · 先看清光从哪边来，再排线</text>
+    <g>
+      <text x="66" y="544" font-size="12" fill="#B9AD9A">光</text>
+      <path d="M96 552 L130 588" fill="none" stroke="#CFC5B4" stroke-width="1.3" stroke-dasharray="4 4"/>
+      <path d="M120 578 L130 588 L114 589" fill="none" stroke="#CFC5B4" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="190" cy="614" r="80" fill="#FFFDF8" stroke="#8B8074" stroke-width="1.8"/>
+      <path d="M110 614 H270" stroke="#CFC5B4" stroke-width="1.1" stroke-dasharray="4 6"/>
+      <path d="M190 534 V694" stroke="#CFC5B4" stroke-width="1.1" stroke-dasharray="4 6"/>
+      <ellipse cx="278" cy="702" rx="110" ry="14" fill="none" stroke="#CFC5B4" stroke-width="1.1" stroke-dasharray="5 6"/>
+      <g font-size="12" fill="#B9AD9A">
+        <text x="312" y="568">先在最暗的地方画一条</text>
+        <text x="312" y="590">「明暗交界线」，再往两边过渡。</text>
+        <text x="312" y="622">亮面留白，暗面一层层加深，</text>
+        <text x="312" y="644">反光比亮面深一点就好。</text>
+        <text x="312" y="676">底下那条椭圆是投影的位置。</text>
+      </g>
+    </g>
+
+    <text x="56" y="744" font-size="12" fill="#B9AD9A">三种深浅就够了：亮面、中间调、暗面。</text>
+  </g>
+</svg>

@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-labelledby="t9">
+  <title id="t9">示意图：一朵花从花心向外长出的花瓣、花茎和两片叶子，标出花瓣中线和明暗</title>
+  <rect width="640" height="420" fill="#FBF6EC"/>
+  <defs>
+    <pattern id="petalHatch" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(46)">
+      <line x1="0" y1="0" x2="0" y2="5" stroke="#8B7B66" stroke-width=".9" opacity=".45"/>
+    </pattern>
+    <clipPath id="petalClip"><path d="M300 190 C278 168 278 128 300 106 C322 128 322 168 300 190 Z"/></clipPath>
+    <clipPath id="leafClip"><path d="M304 300 C332 284 372 290 394 312 C372 334 334 332 306 316 Z"/></clipPath>
+  </defs>
+
+  <!-- 叶子（后面） -->
+  <g>
+    <path d="M304 300 C332 284 372 290 394 312 C372 334 334 332 306 316 Z" fill="#F4EBD8" stroke="#3B342C" stroke-width="1.9"/>
+    <g clip-path="url(#leafClip)"><rect x="300" y="280" width="100" height="56" fill="url(#petalHatch)" opacity=".8"/></g>
+    <path d="M308 310 C334 302 362 304 386 312" fill="none" stroke="#7A6E61" stroke-width="1.2"/>
+    <path d="M320 306 C326 316 332 322 340 326" fill="none" stroke="#7A6E61" stroke-width="1"/>
+    <path d="M348 305 C354 314 360 320 368 323" fill="none" stroke="#7A6E61" stroke-width="1"/>
+    <text x="410" y="316" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#7A6E61">叶子中线</text>
+    <path d="M404 312 L394 312" stroke="#B9A98F" stroke-width="1" stroke-dasharray="3 3"/>
+  </g>
+
+  <!-- 花茎 -->
+  <path d="M300 208 C302 258 296 302 302 340 C305 360 310 378 318 396" fill="none" stroke="#3B342C" stroke-width="2.6" stroke-linecap="round"/>
+
+  <!-- 花瓣：6 片，围绕花心 -->
+  <g>
+    <g transform="rotate(0 300 190)">
+      <path d="M300 190 C278 168 278 128 300 106 C322 128 322 168 300 190 Z" fill="#FFFDF8" stroke="#3B342C" stroke-width="2"/>
+      <path d="M300 188 L300 112" stroke="#C8B48C" stroke-width="1" stroke-dasharray="3 4"/>
+      <g clip-path="url(#petalClip)"><rect x="292" y="100" width="30" height="92" fill="url(#petalHatch)" opacity=".5"/></g>
+    </g>
+    <g transform="rotate(60 300 190)">
+      <path d="M300 190 C278 168 278 128 300 106 C322 128 322 168 300 190 Z" fill="#FFFDF8" stroke="#3B342C" stroke-width="2"/>
+      <path d="M300 188 L300 112" stroke="#C8B48C" stroke-width="1" stroke-dasharray="3 4"/>
+      <g clip-path="url(#petalClip)"><rect x="292" y="100" width="30" height="92" fill="url(#petalHatch)" opacity=".4"/></g>
+    </g>
+    <g transform="rotate(120 300 190)">
+      <path d="M300 190 C278 168 278 128 300 106 C322 128 322 168 300 190 Z" fill="#FFFDF8" stroke="#3B342C" stroke-width="2"/>
+      <path d="M300 188 L300 112" stroke="#C8B48C" stroke-width="1" stroke-dasharray="3 4"/>
+      <g clip-path="url(#petalClip)"><rect x="292" y="100" width="30" height="92" fill="url(#petalHatch)" opacity=".45"/></g>
+    </g>
+    <g transform="rotate(180 300 190)">
+      <path d="M300 190 C278 168 278 128 300 106 C322 128 322 168 300 190 Z" fill="#FFFDF8" stroke="#3B342C" stroke-width="2"/>
+      <path d="M300 188 L300 112" stroke="#C8B48C" stroke-width="1" stroke-dasharray="3 4"/>
+      <g clip-path="url(#petalClip)"><rect x="292" y="100" width="30" height="92" fill="url(#petalHatch)" opacity=".5"/></g>
+    </g>
+    <g transform="rotate(240 300 190)">
+      <path d="M300 190 C278 168 278 128 300 106 C322 128 322 168 300 190 Z" fill="#FFFDF8" stroke="#3B342C" stroke-width="2"/>
+      <path d="M300 188 L300 112" stroke="#C8B48C" stroke-width="1" stroke-dasharray="3 4"/>
+      <g clip-path="url(#petalClip)"><rect x="292" y="100" width="30" height="92" fill="url(#petalHatch)" opacity=".45"/></g>
+    </g>
+    <g transform="rotate(300 300 190)">
+      <path d="M300 190 C278 168 278 128 300 106 C322 128 322 168 300 190 Z" fill="#FFFDF8" stroke="#3B342C" stroke-width="2"/>
+      <path d="M300 188 L300 112" stroke="#C8B48C" stroke-width="1" stroke-dasharray="3 4"/>
+      <g clip-path="url(#petalClip)"><rect x="292" y="100" width="30" height="92" fill="url(#petalHatch)" opacity=".5"/></g>
+    </g>
+  </g>
+
+  <!-- 花心 -->
+  <circle cx="300" cy="190" r="26" fill="#F4EBD8" stroke="#3B342C" stroke-width="2"/>
+  <circle cx="300" cy="190" r="10" fill="none" stroke="#A9553F" stroke-width="1.6"/>
+  <g fill="#A9553F">
+    <circle cx="288" cy="178" r="2.2"/><circle cx="312" cy="178" r="2.2"/><circle cx="286" cy="200" r="2.2"/>
+    <circle cx="314" cy="200" r="2.2"/><circle cx="300" cy="172" r="2.2"/><circle cx="300" cy="208" r="2.2"/>
+  </g>
+
+  <!-- 标注 -->
+  <g stroke="#B9A98F" stroke-width="1.1" stroke-dasharray="3 4" fill="none">
+    <path d="M330 190 L396 150 L452 150"/>
+    <path d="M276 154 L214 120"/>
+  </g>
+  <circle cx="330" cy="190" r="3" fill="#A9553F"/>
+  <circle cx="276" cy="154" r="3" fill="#A9553F"/>
+  <text x="458" y="146" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#7A6E61">花瓣从花心往外长</text>
+  <text x="118" y="116" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#7A6E61">先轻轻画中线，再画两边的弧</text>
+  <text x="120" y="330" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#7A6E61">花茎是一条慢慢弯的线</text>
+  <path d="M290 344 L296 340" stroke="#B9A98F" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <text x="56" y="48" font-family="Songti SC, STSong, serif" font-size="15" fill="#A98D6B">看一朵花，先看它的朝向</text>
+</svg>

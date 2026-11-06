@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 670" width="700" height="670" role="img" aria-labelledby="s2">
+  <title id="s2">练习纸：方块、椭圆和球体</title>
+  <rect width="700" height="670" fill="#FFFDF8"/>
+  <g font-family="PingFang SC, Microsoft YaHei, sans-serif">
+
+    <text x="56" y="44" font-size="13" fill="#A99E8D">素描小院 · 练习纸 2</text>
+    <text x="540" y="44" font-size="13" fill="#A99E8D">日期：____________</text>
+
+    <!-- ① 方块 -->
+    <text x="56" y="86" font-size="15" fill="#5E5449">① 方块 · 先画看不见的边，再描看得见的边</text>
+
+    <!-- 一点透视方块 -->
+    <g>
+      <path d="M82 118 H202 V238 H82 Z" fill="none" stroke="#3B342C" stroke-width="2"/>
+      <circle cx="300" cy="178" r="4" fill="#A9553F"/>
+      <text x="288" y="160" font-size="12" fill="#A9553F">消失点</text>
+      <g stroke="#B9AD9A" stroke-width="1.1" stroke-dasharray="4 5">
+        <path d="M82 118 L300 178"/><path d="M202 118 L300 178"/>
+        <path d="M82 238 L300 178"/><path d="M202 238 L300 178"/>
+      </g>
+      <path d="M300 238 H352" stroke="#CFC5B4" stroke-width="1.1" stroke-dasharray="4 6"/>
+      <text x="72" y="262" font-size="12" fill="#B9AD9A">照着描一遍，再自己摆一个方盒</text>
+    </g>
+
+    <!-- 两点透视方块模板 -->
+    <g>
+      <path d="M420 110 L520 130 L520 244 L420 264 Z" fill="none" stroke="#3B342C" stroke-width="2"/>
+      <path d="M420 110 L470 170 L470 284 L420 264" fill="none" stroke="#3B342C" stroke-width="2"/>
+      <path d="M520 130 L470 170 L420 110" fill="none" stroke="#B9AD9A" stroke-width="1.2" stroke-dasharray="4 5"/>
+      <path d="M470 170 L470 284" stroke="#B9AD9A" stroke-width="1.2" stroke-dasharray="4 5"/>
+      <path d="M470 284 L520 244" stroke="#B9AD9A" stroke-width="1.2" stroke-dasharray="4 5"/>
+      <circle cx="286" cy="196" r="3" fill="#B9AD9A"/>
+      <circle cx="646" cy="196" r="3" fill="#B9AD9A"/>
+      <path d="M290 196 H300" stroke="#CFC5B4" stroke-width="1" stroke-dasharray="3 4"/>
+      <path d="M632 196 H642" stroke="#CFC5B4" stroke-width="1" stroke-dasharray="3 4"/>
+      <text x="404" y="300" font-size="12" fill="#B9AD9A">两条边都往远处收，才是立体的</text>
+    </g>
+
+    <!-- ② 椭圆 -->
+    <text x="56" y="346" font-size="15" fill="#5E5449">② 椭圆 · 两边要对称，别画成鸡蛋</text>
+    <g>
+      <rect x="56" y="366" width="144" height="96" fill="#FFFDF8" stroke="#CFC5B4" stroke-width="1.3"/>
+      <rect x="216" y="366" width="144" height="96" fill="#FFFDF8" stroke="#CFC5B4" stroke-width="1.3"/>
+      <rect x="376" y="366" width="144" height="96" fill="#FFFDF8" stroke="#CFC5B4" stroke-width="1.3"/>
+      <rect x="536" y="366" width="128" height="96" fill="#FFFDF8" stroke="#CFC5B4" stroke-width="1.3"/>
+      <g fill="none" stroke="#CFC5B4" stroke-width="1.2" stroke-dasharray="4 5">
+        <path d="M128 366 V462"/><path d="M56 414 H200"/>
+        <path d="M288 366 V462"/><path d="M216 414 H360"/>
+        <path d="M448 366 V462"/><path d="M376 414 H520"/>
+        <path d="M600 366 V462"/><path d="M536 414 H664"/>
+      </g>
+      <g fill="none" stroke="#8B8074" stroke-width="1.5" opacity=".55">
+        <ellipse cx="128" cy="414" rx="56" ry="16"/>
+        <ellipse cx="288" cy="414" rx="44" ry="26"/>
+        <ellipse cx="448" cy="414" rx="60" ry="20"/>
+        <ellipse cx="600" cy="414" rx="46" ry="30"/>
+      </g>
+      <g font-size="12" fill="#B9AD9A">
+        <text x="88" y="482">扁一点</text>
+        <text x="248" y="482">竖一点</text>
+        <text x="408" y="482">再扁一点</text>
+        <text x="568" y="482">更竖一点</text>
+      </g>
+    </g>
+
+    <!-- ③ 球 -->
+    <text x="56" y="530" font-size="15" fill="#5E5449">③ 球 · 方框里切圆，再修圆</text>
+    <g>
+      <rect x="88" y="546" width="132" height="132" fill="none" stroke="#CFC5B4" stroke-width="1.3" stroke-dasharray="5 5"/>
+      <path d="M88 612 H220 M154 546 V678" stroke="#CFC5B4" stroke-width="1.1" stroke-dasharray="4 6"/>
+      <circle cx="154" cy="612" r="66" fill="none" stroke="#8B8074" stroke-width="1.8"/>
+      <path d="M154 546 A66 66 0 0 1 220 612" fill="none" stroke="#A9553F" stroke-width="1.2" stroke-dasharray="3 4" opacity=".6"/>
+      <text x="256" y="586" font-size="12" fill="#B9AD9A">先用手指比一比，</text>
+      <text x="256" y="606" font-size="12" fill="#B9AD9A">圆的四个角都碰到方框。</text>
+      <text x="256" y="628" font-size="12" fill="#B9AD9A">画完可以在里面试着排一遍线。</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+{
+  "name": "素描小院 · 慢慢画",
+  "short_name": "素描小院",
+  "description": "给零基础的你：8 节素描小课，一步一步学会画画；也教你怎么上网找教程、找参考图。不用注册，免费无广告，手机就能看。",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fbf6ec",
+  "theme_color": "#fbf6ec",
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "assets/img/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

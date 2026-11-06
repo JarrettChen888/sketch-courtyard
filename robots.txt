@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://jarrettchen888.github.io/sketch-courtyard/sitemap.xml

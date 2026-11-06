@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 640" width="700" height="640" role="img" aria-labelledby="s4">
+  <title id="s4">练习纸：苹果的起形、轮廓和投影</title>
+  <rect width="700" height="640" fill="#FFFDF8"/>
+  <g font-family="PingFang SC, Microsoft YaHei, sans-serif">
+
+    <text x="56" y="44" font-size="13" fill="#A99E8D">素描小院 · 练习纸 4</text>
+    <text x="540" y="44" font-size="13" fill="#A99E8D">日期：____________</text>
+
+    <!-- ① 起形 -->
+    <text x="56" y="86" font-size="15" fill="#5E5449">① 起形 · 先方框，再十字线，最后修出苹果</text>
+    <g>
+      <rect x="86" y="110" width="250" height="250" fill="none" stroke="#CFC5B4" stroke-width="1.3" stroke-dasharray="5 5"/>
+      <path d="M86 235 H336" stroke="#CFC5B4" stroke-width="1.1" stroke-dasharray="4 6"/>
+      <path d="M211 110 V360" stroke="#CFC5B4" stroke-width="1.1" stroke-dasharray="4 6"/>
+      <circle cx="211" cy="235" r="104" fill="none" stroke="#CFC5B4" stroke-width="1.1" stroke-dasharray="4 6"/>
+      <path d="M205 165 C190 157 172 163 162 181 C150 203 155 233 172 251 C183 263 199 268 211 263 C217 260 221 256 226 257 C233 258 238 263 245 260 C259 254 267 235 265 215 C263 194 250 178 234 173 C226 170 218 171 212 176 C208 179 208 170 205 165 Z" fill="none" stroke="#8B8074" stroke-width="1.6"/>
+      <path d="M212 176 C210 160 214 147 221 138" fill="none" stroke="#8B8074" stroke-width="1.6"/>
+      <path d="M221 138 C232 129 247 129 255 136 C247 148 232 150 221 138 Z" fill="none" stroke="#8B8074" stroke-width="1.3"/>
+      <text x="86" y="388" font-size="12" fill="#B9AD9A">方框定大小，十字定位置，圆定外形。</text>
+      <text x="86" y="408" font-size="12" fill="#B9AD9A">先轻手，画错也不要擦，接着修。</text>
+    </g>
+
+    <!-- ② 轮廓 -->
+    <text x="398" y="86" font-size="15" fill="#5E5449">② 轮廓 · 在这个形里排线</text>
+    <g>
+      <path d="M492 168 C470 156 444 164 432 188 C418 216 424 256 444 280 C458 297 477 304 492 298 C500 295 505 290 511 291 C519 292 525 298 534 294 C553 285 564 262 561 238 C558 213 542 191 522 184 C511 180 501 182 494 188 C490 191 494 180 492 168 Z" fill="none" stroke="#8B8074" stroke-width="1.6"/>
+      <path d="M494 188 C492 166 497 148 508 136" fill="none" stroke="#8B8074" stroke-width="1.6"/>
+      <path d="M508 136 C521 125 541 125 551 134 C541 148 522 150 508 136 Z" fill="none" stroke="#8B8074" stroke-width="1.3"/>
+      <text x="398" y="360" font-size="12" fill="#B9AD9A">暗面在右边，先轻轻排一层，再一层。</text>
+      <text x="398" y="380" font-size="12" fill="#B9AD9A">明暗交界线沿着圆的转折走，别画直。</text>
+    </g>
+
+    <!-- ③ 投影 -->
+    <text x="56" y="470" font-size="15" fill="#5E5449">③ 投影 · 阴影要跟着光走</text>
+    <g>
+      <path d="M96 490 L126 522" fill="none" stroke="#CFC5B4" stroke-width="1.3" stroke-dasharray="4 4"/>
+      <path d="M116 512 L126 522 L110 523" fill="none" stroke="#CFC5B4" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+      <ellipse cx="220" cy="540" rx="120" ry="26" fill="none" stroke="#CFC5B4" stroke-width="1.1" stroke-dasharray="5 6"/>
+      <text x="96" y="592" font-size="12" fill="#B9AD9A">光在左上，阴影就落在右下。</text>
+      <text x="96" y="612" font-size="12" fill="#B9AD9A">影子靠近苹果的地方最深，往外变浅。</text>
+    </g>
+
+    <!-- 自由练习 -->
+    <text x="398" y="470" font-size="15" fill="#5E5449">④ 自由练习 · 摆一个自己的静物</text>
+    <g>
+      <rect x="398" y="486" width="242" height="132" fill="none" stroke="#CFC5B4" stroke-width="1.3" stroke-dasharray="5 5"/>
+      <text x="440" y="556" font-size="12" fill="#CFC5B4">两个东西 + 一块影子</text>
+    </g>
+
+    <text x="56" y="628" font-size="12" fill="#B9AD9A">画完写上日期，过两周再看一次。</text>
+  </g>
+</svg>
