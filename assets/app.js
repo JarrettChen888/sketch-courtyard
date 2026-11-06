@@ -98,7 +98,10 @@
 
     document.querySelectorAll('[data-progress-text]').forEach(function (el) { el.textContent = count; });
     document.querySelectorAll('[data-progress-bar]').forEach(function (el) { el.style.width = pct + '%'; });
-    document.querySelectorAll('.progress[role="progressbar"]').forEach(function (el) { el.setAttribute('aria-valuenow', String(count)); });
+    document.querySelectorAll('.progress[role="progressbar"]').forEach(function (el) {
+      el.setAttribute('aria-valuenow', String(count));
+      el.setAttribute('aria-valuetext', '已学 ' + count + ' / ' + TOTAL + ' 课');
+    });
 
     document.querySelectorAll('[data-lesson-item],[data-lesson-row],[data-lesson-mini]').forEach(function (el) {
       var n = parseInt(el.getAttribute('data-lesson-item') || el.getAttribute('data-lesson-row') || el.getAttribute('data-lesson-mini'), 10);
@@ -118,7 +121,7 @@
       var next = 0;
       for (var i = 1; i <= TOTAL; i++) { if (p.done.indexOf(i) < 0) { next = i; break; } }
       if (next) { cta.setAttribute('href', 'lesson-' + next + '.html'); cta.textContent = count ? '继续第 ' + next + ' 课' : '从第一课开始'; }
-      else { cta.setAttribute('href', 'map.html'); cta.textContent = '八课都学完了，回去复习'; }
+      else { cta.setAttribute('href', 'map.html'); cta.textContent = '八课学完了，去复习'; }
     }
 
     document.querySelectorAll('[data-complete-btn]').forEach(function (btn) {
@@ -126,7 +129,7 @@
       var done = p.done.indexOf(n) >= 0;
       btn.classList.toggle('btn-primary', !done);
       btn.classList.toggle('btn-secondary', done);
-      btn.textContent = done ? '✓ 这一课已完成（点一下可以取消）' : '画完了，标记这一课完成';
+      btn.textContent = done ? '✓ 已完成（点一下取消）' : '画完了，标记这一课完成';
       btn.setAttribute('aria-pressed', String(done));
     });
   }
@@ -224,7 +227,7 @@
   var platformTabs = document.querySelectorAll('[data-platform-tab]');
   if (platformTabs.length) {
     var setPlatform = function (tab) {
-      platformTabs.forEach(function (t) { t.setAttribute('aria-selected', String(t === tab)); });
+      platformTabs.forEach(function (t) { t.setAttribute('aria-pressed', String(t === tab)); });
       var name = tab.getAttribute('data-platform-name');
       document.querySelectorAll('[data-q]').forEach(function (a) {
         var links;

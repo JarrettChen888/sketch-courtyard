@@ -18,7 +18,7 @@
   </defs>
 
   <!-- 长线 -->
-  <text x="68" y="52" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#7A6E61">① 长线：眼睛看终点，一口气拉到底</text>
+  <text x="68" y="52" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#5E5449">① 长线：眼睛看终点，一口气拉到底</text>
   <g fill="none" stroke="#3B342C" stroke-width="2" stroke-linecap="round">
     <path d="M68 82 C180 80 330 86 570 82"/>
     <path d="M68 104 C190 102 320 108 570 103"/>
@@ -30,7 +30,7 @@
   <path d="M556 184 L566 190 L556 196" fill="none" stroke="#C8B48C" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
 
   <!-- 排线 -->
-  <text x="68" y="232" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#7A6E61">② 排线：并排站队，间距一样宽</text>
+  <text x="68" y="232" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#5E5449">② 排线：并排站队，间距一样宽</text>
   <g>
     <rect x="68" y="248" width="160" height="90" fill="#FFFDF8" stroke="#3B342C" stroke-width="1.6"/>
     <rect x="72" y="252" width="152" height="82" fill="url(#hv)"/>
@@ -39,30 +39,30 @@
     <rect x="412" y="248" width="160" height="90" fill="#FFFDF8" stroke="#3B342C" stroke-width="1.6"/>
     <rect x="416" y="252" width="152" height="82" fill="url(#hh)"/>
   </g>
-  <g font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#7A6E61">
+  <g font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#5E5449">
     <text x="132" y="358">竖排</text>
     <text x="304" y="358">斜排（45°）</text>
     <text x="470" y="358">横排</text>
   </g>
   <path d="M416 270 C480 260 540 268 572 262" fill="none" stroke="#A9553F" stroke-width="1.4" stroke-linecap="round" opacity=".8"/>
-  <text x="500" y="252" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#A9553F">手腕放松</text>
+  <text x="500" y="252" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#A9553F">手腕放松</text>
 
   <!-- 叠灰面 -->
-  <text x="68" y="384" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#7A6E61">③ 灰面：不使劲压，靠一层一层叠</text>
+  <text x="68" y="384" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#5E5449">③ 灰面：不使劲压，靠一层一层叠</text>
   <g>
     <rect x="380" y="368" width="76" height="34" fill="#FFFDF8" stroke="#7A6E61" stroke-width="1.3"/>
     <rect x="382" y="370" width="72" height="30" fill="url(#hd)" opacity=".35"/>
-    <text x="398" y="390" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#7A6E61">1 层</text>
+    <text x="398" y="390" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#5E5449">1 层</text>
     <rect x="466" y="368" width="76" height="34" fill="#FFFDF8" stroke="#7A6E61" stroke-width="1.3"/>
     <rect x="468" y="370" width="72" height="30" fill="url(#hd)" opacity=".55"/>
     <rect x="468" y="370" width="72" height="30" fill="url(#hv)" opacity=".35"/>
-    <text x="484" y="390" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#7A6E61">2 层</text>
+    <text x="484" y="390" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#5E5449">2 层</text>
     <rect x="552" y="368" width="66" height="34" fill="#FFFDF8" stroke="#7A6E61" stroke-width="1.3"/>
     <rect x="554" y="370" width="62" height="30" fill="url(#hd)" opacity=".7"/>
     <rect x="554" y="370" width="62" height="30" fill="url(#hv)" opacity=".55"/>
-    <text x="566" y="390" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#7A6E61">3 层</text>
+    <text x="566" y="390" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#5E5449">3 层</text>
   </g>
   <path d="M340 385 L372 385" stroke="#C8B48C" stroke-width="1.4" stroke-dasharray="3 4"/>
   <path d="M364 380 L372 385 L364 390" fill="none" stroke="#C8B48C" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="70" y="404" font-family="Songti SC, STSong, serif" font-size="14" fill="#A98D6B">画歪了也别停，让这条线自己走完。</text>
+  <text x="70" y="404" font-family="Songti SC, STSong, serif" font-size="16" fill="#7A5B44">画歪了也别停，让这条线自己走完。</text>
 </svg>

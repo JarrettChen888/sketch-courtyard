@@ -66,7 +66,7 @@
     <path d="M268 431 L436 431" stroke="#B99A52" stroke-width="1.2"/>
   </g>
 
-  <text x="56" y="86" font-family="Songti SC, STSong, serif" font-size="16" fill="#A98D6B" letter-spacing="5">第 1 天</text>
-  <text x="72" y="112" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#B9A98F" letter-spacing="2">慢慢画，先看清再落笔</text>
-  <text x="416" y="440" font-family="Songti SC, STSong, serif" font-size="15" fill="#A98D6B" letter-spacing="3">素描小院</text>
+  <text x="56" y="86" font-family="Songti SC, STSong, serif" font-size="18" fill="#7A5B44" letter-spacing="5">第 1 天</text>
+  <text x="72" y="112" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#8B7B66" letter-spacing="2">慢慢画，先看清再落笔</text>
+  <text x="416" y="440" font-family="Songti SC, STSong, serif" font-size="15" fill="#7A5B44" letter-spacing="3">素描小院</text>
 </svg>

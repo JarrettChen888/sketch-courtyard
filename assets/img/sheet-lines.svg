@@ -3,17 +3,17 @@
   <rect width="700" height="810" fill="#FFFDF8"/>
   <g font-family="PingFang SC, Microsoft YaHei, sans-serif">
 
-    <text x="56" y="44" font-size="13" fill="#A99E8D">素描小院 · 练习纸 1</text>
-    <text x="540" y="44" font-size="13" fill="#A99E8D">日期：____________</text>
+    <text x="56" y="44" font-size="18" fill="#6B6055">素描小院 · 练习纸 1</text>
+    <text x="540" y="44" font-size="18" fill="#6B6055">日期：____________</text>
 
     <!-- ① 长线 -->
-    <text x="56" y="86" font-size="15" fill="#5E5449">① 长线 · 眼睛看终点，一口气拉到底</text>
+    <text x="56" y="86" font-size="20" fill="#5E5449">① 长线 · 眼睛看终点，一口气拉到底</text>
     <g stroke="#CFC5B4" stroke-width="1.2" stroke-dasharray="3 7">
       <path d="M96 116 H632"/>
       <path d="M96 160 H632"/>
       <path d="M96 204 H632"/>
     </g>
-    <g fill="#B9AD9A">
+    <g fill="#6B6055">
       <circle cx="96" cy="116" r="3.4"/><circle cx="96" cy="160" r="3.4"/><circle cx="96" cy="204" r="3.4"/>
     </g>
     <g fill="none" stroke="#B9AD9A" stroke-width="1.4" stroke-linecap="round">
@@ -23,14 +23,14 @@
     </g>
 
     <!-- ② 排线 -->
-    <text x="56" y="264" font-size="15" fill="#5E5449">② 排线 · 并排站队，间距一样宽，只画一遍</text>
+    <text x="56" y="264" font-size="20" fill="#5E5449">② 排线 · 并排站队，间距一样宽，只画一遍</text>
     <g>
       <rect x="56" y="284" width="280" height="116" fill="#FFFDF8" stroke="#CFC5B4" stroke-width="1.4"/>
       <rect x="364" y="284" width="280" height="116" fill="#FFFDF8" stroke="#CFC5B4" stroke-width="1.4"/>
       <rect x="56" y="424" width="280" height="116" fill="#FFFDF8" stroke="#CFC5B4" stroke-width="1.4"/>
       <rect x="364" y="424" width="280" height="116" fill="#FFFDF8" stroke="#CFC5B4" stroke-width="1.4"/>
     </g>
-    <g font-size="12" fill="#B9AD9A">
+    <g font-size="18" fill="#6B6055">
       <text x="70" y="392">竖排</text>
       <text x="378" y="392">斜排 45°</text>
       <text x="70" y="532">横排</text>
@@ -42,13 +42,13 @@
     </g>
 
     <!-- ③ 灰面 -->
-    <text x="56" y="592" font-size="15" fill="#5E5449">③ 灰面 · 不使劲压，一层一层叠出深浅</text>
+    <text x="56" y="592" font-size="20" fill="#5E5449">③ 灰面 · 不使劲压，一层一层叠出深浅</text>
     <g>
       <rect x="56" y="612" width="176" height="104" fill="#FFFDF8" stroke="#CFC5B4" stroke-width="1.4"/>
       <rect x="256" y="612" width="176" height="104" fill="#FFFDF8" stroke="#CFC5B4" stroke-width="1.4"/>
       <rect x="456" y="612" width="176" height="104" fill="#FFFDF8" stroke="#CFC5B4" stroke-width="1.4"/>
     </g>
-    <g font-size="12" fill="#B9AD9A">
+    <g font-size="18" fill="#6B6055">
       <text x="120" y="740">第一层：很轻</text>
       <text x="300" y="740">第二层：换方向</text>
       <text x="490" y="740">第三层：暗下去</text>
@@ -57,6 +57,6 @@
       <path d="M70 626 L70 702 M78 626 L78 702 M86 626 L86 702 M94 626 L94 702 M102 626 L102 702 M110 626 L110 702"/>
     </g>
 
-    <text x="56" y="786" font-size="12" fill="#B9AD9A">画完写上日期。过两周再画一张，你会看见自己的手变稳了。</text>
+    <text x="56" y="786" font-size="18" fill="#6B6055">画完写上日期。过两周再画一张，你会看见自己的手变稳了。</text>
   </g>
 </svg>

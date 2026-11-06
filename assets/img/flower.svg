@@ -16,7 +16,7 @@
     <path d="M308 310 C334 302 362 304 386 312" fill="none" stroke="#7A6E61" stroke-width="1.2"/>
     <path d="M320 306 C326 316 332 322 340 326" fill="none" stroke="#7A6E61" stroke-width="1"/>
     <path d="M348 305 C354 314 360 320 368 323" fill="none" stroke="#7A6E61" stroke-width="1"/>
-    <text x="410" y="316" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#7A6E61">叶子中线</text>
+    <text x="410" y="316" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#5E5449">叶子中线</text>
     <path d="M404 312 L394 312" stroke="#B9A98F" stroke-width="1" stroke-dasharray="3 3"/>
   </g>
 
@@ -72,10 +72,11 @@
   </g>
   <circle cx="330" cy="190" r="3" fill="#A9553F"/>
   <circle cx="276" cy="154" r="3" fill="#A9553F"/>
-  <text x="458" y="146" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#7A6E61">花瓣从花心往外长</text>
-  <text x="118" y="116" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#7A6E61">先轻轻画中线，再画两边的弧</text>
-  <text x="120" y="330" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#7A6E61">花茎是一条慢慢弯的线</text>
+  <text x="458" y="146" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#5E5449">花瓣从花心往外长</text>
+  <text x="56" y="106" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#5E5449">先轻轻画花瓣中线，</text>
+  <text x="56" y="130" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#5E5449">再画两边的弧。</text>
+  <text x="120" y="330" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#5E5449">花茎是一条慢慢弯的线</text>
   <path d="M290 344 L296 340" stroke="#B9A98F" stroke-width="1" stroke-dasharray="3 3"/>
 
-  <text x="56" y="48" font-family="Songti SC, STSong, serif" font-size="15" fill="#A98D6B">看一朵花，先看它的朝向</text>
+  <text x="56" y="48" font-family="Songti SC, STSong, serif" font-size="16" fill="#7A5B44">看一朵花，先看它的朝向</text>
 </svg>

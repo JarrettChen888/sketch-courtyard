@@ -16,14 +16,14 @@
     <circle cx="136" cy="204" r="64" fill="none" stroke="#3B342C" stroke-width="2.2"/>
     <circle cx="136" cy="204" r="64" fill="none" stroke="#A9553F" stroke-width="1" opacity=".5" stroke-dasharray="3 6"/>
     <path d="M92 170 C104 158 120 154 136 154" fill="none" stroke="#A9553F" stroke-width="1.4" stroke-linecap="round" opacity=".7"/>
-    <text x="86" y="302" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#7A6E61">先画方框和十字线，再切圆</text>
+    <text x="86" y="302" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#5E5449">先画方框和十字线，再切圆</text>
   </g>
 
   <!-- 光 -->
   <g>
     <path d="M312 74 L364 138" fill="none" stroke="#C8B48C" stroke-width="1.6" stroke-dasharray="4 4"/>
     <path d="M356 128 L364 138 L352 140" fill="none" stroke="#C8B48C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-    <text x="290" y="64" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#7A6E61">光从这边来</text>
+    <text x="290" y="64" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#5E5449">光从这边来</text>
   </g>
 
   <!-- 球体 -->
@@ -65,9 +65,9 @@
   <circle cx="482" cy="292" r="3" fill="#A9553F"/>
   <circle cx="420" cy="348" r="3" fill="#A9553F"/>
   <circle cx="356" cy="158" r="3" fill="#A9553F"/>
-  <text x="540" y="204" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#7A6E61">暗面</text>
-  <text x="520" y="356" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#7A6E61">椭圆结构线</text>
-  <text x="300" y="404" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#7A6E61">投影</text>
-  <text x="202" y="152" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#7A6E61">高光</text>
-  <text x="62" y="80" font-family="Songti SC, STSong, serif" font-size="15" fill="#A98D6B">圆不是描出来的，是修出来的</text>
+  <text x="540" y="204" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#5E5449">暗面</text>
+  <text x="520" y="356" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#5E5449">椭圆结构线</text>
+  <text x="300" y="404" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#5E5449">投影</text>
+  <text x="202" y="152" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#5E5449">高光</text>
+  <text x="62" y="80" font-family="Songti SC, STSong, serif" font-size="16" fill="#7A5B44">圆不是描出来的，是修出来的</text>
 </svg>

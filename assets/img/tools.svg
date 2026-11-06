@@ -27,7 +27,7 @@
     <path d="M604 292 L636 299.5 L604 307 Z" fill="#F3E3BC" stroke="#3B342C" stroke-width="1.6"/>
     <path d="M625 297.7 L636 299.5 L625 301.3 Z" fill="#3B342C"/>
     <path d="M404 299.5 L604 299.5" stroke="#B99A52" stroke-width="1.1"/>
-    <text x="470" y="288" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#7A6E61">2B 打草稿</text>
+    <text x="470" y="288" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#5E5449">2B 打草稿</text>
   </g>
   <!-- 铅笔 4B -->
   <g transform="rotate(-6 520 340)">
@@ -35,14 +35,14 @@
     <path d="M600 332 L630 339.5 L600 347 Z" fill="#F3E3BC" stroke="#3B342C" stroke-width="1.6"/>
     <path d="M620 337.6 L630 339.5 L620 341.4 Z" fill="#3B342C"/>
     <path d="M430 339.5 L600 339.5" stroke="#A98D4A" stroke-width="1.1"/>
-    <text x="452" y="328" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#7A6E61">4B 画暗部</text>
+    <text x="452" y="328" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#5E5449">4B 画暗部</text>
   </g>
 
   <!-- 橡皮 -->
   <g transform="rotate(-8 130 330)">
     <rect x="76" y="308" width="112" height="44" rx="6" fill="#F2E8D2" stroke="#3B342C" stroke-width="1.8"/>
     <rect x="76" y="308" width="112" height="14" rx="6" fill="#D9C4A8" stroke="#3B342C" stroke-width="1.4"/>
-    <text x="92" y="339" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#7A6E61">软橡皮</text>
+    <text x="92" y="339" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#5E5449">软橡皮</text>
   </g>
 
   <!-- 削笔刀 -->
@@ -62,7 +62,7 @@
   <circle cx="300" cy="92" r="3" fill="#A9553F"/>
   <circle cx="196" cy="322" r="3" fill="#A9553F"/>
   <circle cx="470" cy="360" r="3" fill="#A9553F"/>
-  <text x="370" y="57" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#7A6E61">A4 纸，美纹纸固定四角</text>
-  <text x="528" y="407" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#7A6E61">削笔刀</text>
-  <text x="150" y="70" font-family="Songti SC, STSong, serif" font-size="15" fill="#A98D6B">桌面不大，够用就好</text>
+  <text x="370" y="57" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#5E5449">A4 纸，美纹纸固定四角</text>
+  <text x="528" y="407" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#5E5449">削笔刀</text>
+  <text x="150" y="70" font-family="Songti SC, STSong, serif" font-size="16" fill="#7A5B44">桌面不大，够用就好</text>
 </svg>

@@ -10,13 +10,13 @@
 
   <!-- 视平线 -->
   <path d="M28 210 L612 210" stroke="#C8B48C" stroke-width="1.3" stroke-dasharray="6 6"/>
-  <text x="508" y="202" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#7A6E61">视平线</text>
+  <text x="508" y="202" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#5E5449">视平线</text>
 
   <!-- 消失点 -->
   <circle cx="40" cy="210" r="4" fill="#A9553F"/>
   <circle cx="600" cy="210" r="4" fill="#A9553F"/>
-  <text x="14" y="236" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#A9553F">消失点</text>
-  <text x="540" y="236" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#A9553F">消失点</text>
+  <text x="14" y="236" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#A9553F">消失点</text>
+  <text x="540" y="236" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#A9553F">消失点</text>
 
   <!-- 延长到消失点的辅助线 -->
   <g fill="none" stroke="#B9A98F" stroke-width="1.1" stroke-dasharray="4 5" opacity=".9">
@@ -53,8 +53,8 @@
   </g>
   <circle cx="262" cy="233" r="3" fill="#A9553F"/>
   <circle cx="355" cy="190" r="3" fill="#A9553F"/>
-  <text x="88" y="360" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#7A6E61">看不见的边，先画虚线</text>
-  <text x="480" y="112" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#7A6E61">三条线交于一点</text>
+  <text x="88" y="360" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#5E5449">看不见的边，先画虚线</text>
+  <text x="480" y="112" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#5E5449">三条线交于一点</text>
 
-  <text x="56" y="60" font-family="Songti SC, STSong, serif" font-size="15" fill="#A98D6B">方块是所有形体的骨头</text>
+  <text x="56" y="60" font-family="Songti SC, STSong, serif" font-size="16" fill="#7A5B44">方块是所有形体的骨头</text>
 </svg>

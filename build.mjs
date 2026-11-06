@@ -121,6 +121,7 @@ function head({ title, desc, page }) {
 <meta property="og:type" content="website">
 <meta property="og:url" content="${SITE.url}">
 <meta property="og:site_name" content="${SITE.name}">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23fbf6ec'/%3E%3Ccircle cx='32' cy='32' r='21' fill='none' stroke='%232b2622' stroke-width='3'/%3E%3Cpath d='M21 43l1.5-6 14-14a3.2 3.2 0 0 1 4.5 4.5l-14 14-6 1.5z' fill='none' stroke='%23a9553f' stroke-width='3' stroke-linejoin='round'/%3E%3C/svg%3E">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="stylesheet" href="assets/style.css">
@@ -139,7 +140,7 @@ function header(page) {
       <span class="brand-text">素描小院<small>SLOW SKETCH</small></span>
     </a>
     <nav class="nav" aria-label="主导航">
-      ${NAV.map(([href, label, key]) => `<a href="${href}"${key === page ? ' aria-current="page"' : ''}>${label}</a>`).join('\n      ')}
+      ${NAV.map(([href, label, key]) => `<a href="${href}"${key === (page === 'index' ? 'home' : page) ? ' aria-current="page"' : ''}>${label}</a>`).join('\n      ')}
       <span class="nav-progress"><a href="map.html">已学 <b data-progress-text>0</b>/8 课</a></span>
     </nav>
     <div class="header-tools">
@@ -153,7 +154,7 @@ function header(page) {
 function tabbar(page) {
   return `
 <nav class="tabbar" aria-label="快捷导航">
-  ${NAV.map(([href, label, key]) => `<a href="${href}"${key === page ? ' aria-current="page"' : ''}>${icon(TAB_ICON[key])}<span>${label}</span></a>`).join('\n  ')}
+  ${NAV.map(([href, label, key]) => `<a href="${href}"${key === (page === 'index' ? 'home' : page) ? ' aria-current="page"' : ''}>${icon(TAB_ICON[key])}<span>${label}</span></a>`).join('\n  ')}
 </nav>`;
 }
 
@@ -404,7 +405,7 @@ function buildLesson(l) {
     title: `第 ${l.num} 课：${l.title}`,
     desc: `第 ${l.num} 课「${l.title}」：${l.subtitle}。约 ${l.minutes} 分钟，零基础可完成。`,
   })}${header('lesson')}
-<main id="main" data-read-scope>
+<main id="main">
   <div class="container lesson-hero">
     <nav class="breadcrumb" aria-label="位置">
       <a href="map.html">学习地图</a><span aria-hidden="true">/</span><span>第 ${l.num} 课</span>
@@ -423,7 +424,7 @@ function buildLesson(l) {
   </div>
   <div class="container lesson-body">
     <div class="lesson-layout">
-      <article class="lesson-main">
+      <article class="lesson-main" data-read-scope>
         <section class="block" aria-labelledby="h-goals">
           <div class="block-num">01 / 目标</div>
           <h2 id="h-goals"><span class="h-mark" aria-hidden="true"></span>这一课你会学会</h2>
@@ -442,6 +443,7 @@ function buildLesson(l) {
             <div class="art"><a class="fig-zoom" href="assets/img/${l.svg}.svg" target="_blank" rel="noopener" aria-label="放大查看示意图（在新窗口打开）"><img src="assets/img/${l.svg}.svg" width="640" height="420" alt="${esc(fig.alt)}"></a></div>
             <figcaption>${esc(fig.cap)} · <a href="assets/img/${l.svg}.svg" target="_blank" rel="noopener">放大看</a></figcaption>
           </figure>
+          <p class="fig-help">图上的字看不清？把手机横过来看，或者点「放大看」，两指还能再放大。</p>
         </section>
 
         <section class="block" aria-labelledby="h-steps">
@@ -604,10 +606,10 @@ function buildSearch() {
       <div class="block-num">02 / 关键词表</div>
       <h2 id="h-kw"><span class="h-mark" aria-hidden="true"></span>不知道搜什么？照这个表打</h2>
       <p class="kw-hint">先在下面选一个平台，再点关键词，就能直接打开搜索。搜索框里已经帮你填好了字，不用自己打字。</p>
-      <div class="tabs" role="tablist" aria-label="选择搜索平台">
+      <div class="tabs" role="group" aria-label="选择搜索平台">
         ${platformTabs
           .map(
-            (p, i) => `<button class="tab" type="button" role="tab" id="ptab-${i}" aria-selected="${i === 0}" data-platform-tab data-platform-name="${esc(p.name)}" data-url-template="${esc(p.urlTemplate)}">${esc(shortName(p.name))}</button>`
+            (p, i) => `<button class="tab" type="button" id="ptab-${i}" aria-pressed="${i === 0}" data-platform-tab data-platform-name="${esc(p.name)}" data-url-template="${esc(p.urlTemplate)}">${esc(shortName(p.name))}</button>`
           )
           .join('\n        ')}
       </div>
@@ -760,7 +762,7 @@ function buildPractice() {
   <div class="container page-head">
     <p class="eyebrow">练习纸</p>
     <h1>打印出来，随手就能练</h1>
-    <p class="lead">这四张纸，对应前面的课。有打印机就打印，没有就照着屏幕画——横过来看，屏幕当纸用。</p>
+    <p class="lead">这四张纸，对应前面的课。有打印机就打印，没有就照着屏幕画——把手机横过来，屏幕当作纸。图上的字看不清，点一下练习纸可以放大。</p>
     <div class="sheet-toolbar">
       <button class="btn btn-primary" type="button" data-print>${icon('print')} 打印全部练习纸</button>
       <span class="small muted">打印时只保留练习纸，菜单和按钮会自动隐藏。</span>
@@ -800,6 +802,7 @@ function buildHelp() {
     <p class="lead">这里说清楚四件事：字怎么调大、怎么听朗读、怎么打印、怎么把它放到手机桌面上。看不明白的地方，直接点开下面的问题。</p>
   </div>
   <div class="container">
+    <h2 class="visually-hidden">常用的六个操作</h2>
     <div class="grid grid-2" style="margin-bottom:2.6rem">
       <div class="card help-card">
         <h3>${icon('eye')} 字太小，看不清</h3>
@@ -861,7 +864,7 @@ function buildHelp() {
 
     <section class="block" aria-labelledby="h-faq">
       <div class="block-num">常见问题</div>
-      <h2 id="h-faq"><span class="h-mark" aria-hidden="true"></span>她最想问的十个问题</h2>
+      <h2 id="h-faq"><span class="h-mark" aria-hidden="true"></span>你最想问的十个问题</h2>
       ${faq
         .map(
           (f) => `<details class="faq-item">
@@ -934,7 +937,10 @@ ${pages.map(([p, pri]) => `  <url><loc>${SITE.url}${p}</loc><priority>${pri}</pr
         background_color: '#fbf6ec',
         theme_color: '#fbf6ec',
         lang: 'zh-CN',
-        icons: [{ src: 'assets/img/icon.svg', sizes: 'any', type: 'image/svg+xml', purpose: 'any' }],
+        icons: [
+          { src: 'assets/img/icon-192.png', sizes: '192x192', type: 'image/png', purpose: 'any' },
+          { src: 'assets/img/icon.svg', sizes: 'any', type: 'image/svg+xml', purpose: 'any' },
+        ],
       },
       null,
       2

@@ -12,6 +12,7 @@
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://jarrettchen888.github.io/sketch-courtyard/">
 <meta property="og:site_name" content="素描小院">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23fbf6ec'/%3E%3Ccircle cx='32' cy='32' r='21' fill='none' stroke='%232b2622' stroke-width='3'/%3E%3Cpath d='M21 43l1.5-6 14-14a3.2 3.2 0 0 1 4.5 4.5l-14 14-6 1.5z' fill='none' stroke='%23a9553f' stroke-width='3' stroke-linejoin='round'/%3E%3C/svg%3E">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="stylesheet" href="assets/style.css">
@@ -81,12 +82,12 @@
       <div class="block-num">02 / 关键词表</div>
       <h2 id="h-kw"><span class="h-mark" aria-hidden="true"></span>不知道搜什么？照这个表打</h2>
       <p class="kw-hint">先在下面选一个平台，再点关键词，就能直接打开搜索。搜索框里已经帮你填好了字，不用自己打字。</p>
-      <div class="tabs" role="tablist" aria-label="选择搜索平台">
-        <button class="tab" type="button" role="tab" id="ptab-0" aria-selected="true" data-platform-tab data-platform-name="哔哩哔哩（B站）" data-url-template="https://search.bilibili.com/all?keyword={q}">B站</button>
-        <button class="tab" type="button" role="tab" id="ptab-1" aria-selected="false" data-platform-tab data-platform-name="小红书" data-url-template="https://www.xiaohongshu.com/search_result?keyword={q}">小红书</button>
-        <button class="tab" type="button" role="tab" id="ptab-2" aria-selected="false" data-platform-tab data-platform-name="抖音" data-url-template="https://www.douyin.com/search/{q}">抖音</button>
-        <button class="tab" type="button" role="tab" id="ptab-3" aria-selected="false" data-platform-tab data-platform-name="百度" data-url-template="https://www.baidu.com/s?wd={q}">百度</button>
-        <button class="tab" type="button" role="tab" id="ptab-4" aria-selected="false" data-platform-tab data-platform-name="知乎" data-url-template="https://www.zhihu.com/search?type=content&amp;q={q}">知乎</button>
+      <div class="tabs" role="group" aria-label="选择搜索平台">
+        <button class="tab" type="button" id="ptab-0" aria-pressed="true" data-platform-tab data-platform-name="哔哩哔哩（B站）" data-url-template="https://search.bilibili.com/all?keyword={q}">B站</button>
+        <button class="tab" type="button" id="ptab-1" aria-pressed="false" data-platform-tab data-platform-name="小红书" data-url-template="https://www.xiaohongshu.com/search_result?keyword={q}">小红书</button>
+        <button class="tab" type="button" id="ptab-2" aria-pressed="false" data-platform-tab data-platform-name="抖音" data-url-template="https://www.douyin.com/search/{q}">抖音</button>
+        <button class="tab" type="button" id="ptab-3" aria-pressed="false" data-platform-tab data-platform-name="百度" data-url-template="https://www.baidu.com/s?wd={q}">百度</button>
+        <button class="tab" type="button" id="ptab-4" aria-pressed="false" data-platform-tab data-platform-name="知乎" data-url-template="https://www.zhihu.com/search?type=content&amp;q={q}">知乎</button>
       </div>
       <div class="kw-stage">
         <h3><span class="badge">第 1–2 课：工具和排线</span></h3>

@@ -69,10 +69,10 @@
   </g>
   <circle cx="300" cy="172" r="3" fill="#A9553F"/>
   <circle cx="300" cy="366" r="3" fill="#A9553F"/>
-  <g font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#7A6E61">
+  <g font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#5E5449">
     <text x="408" y="139">苹果在前，杯子在后</text>
-    <text x="456" y="393">阴影连成一片，画面才稳</text>
-    <text x="506" y="255">把东西放在中间偏下</text>
+    <text x="420" y="393">阴影连成一片，画面才稳</text>
+    <text x="466" y="255">把东西放在中间偏下</text>
   </g>
-  <text x="70" y="52" font-family="Songti SC, STSong, serif" font-size="15" fill="#A98D6B">先定位置，再画细节</text>
+  <text x="70" y="52" font-family="Songti SC, STSong, serif" font-size="16" fill="#7A5B44">先定位置，再画细节</text>
 </svg>

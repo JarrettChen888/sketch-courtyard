@@ -1359,3 +1359,86 @@ html, body { overflow-x: hidden; }
   .sheet:last-of-type { break-after: auto; page-break-after: auto; }
   .sheet-head .sheet-print { display: none !important; }
 }
+
+/* ---------- 23. QA 修复（对比度 / 375px / 打印 / 焦点） ---------- */
+html { color-scheme: light; }
+html[data-theme="dark"] { color-scheme: dark; }
+
+:focus-visible {
+  outline: 3px solid var(--accent-deep);
+  outline-offset: 2px;
+  box-shadow: none;
+  border-radius: 6px;
+}
+
+html[data-theme="dark"] .btn-primary { color: #221d18; }
+html[data-theme="dark"] .btn-primary:hover { background: var(--accent-deep); color: #221d18; }
+
+#keywords, [id="keywords"] { scroll-margin-top: calc(var(--header-h) + 1.2rem); }
+textarea::placeholder { color: var(--muted); opacity: 1; }
+
+/* color-mix 回退：老版本 Safari 不认识 color-mix 时，先给不透明底色 */
+.site-header { background: rgba(251, 246, 236, 0.94); }
+html[data-theme="dark"] .site-header { background: rgba(34, 29, 24, 0.94); }
+.tabbar { background: rgba(251, 246, 236, 0.96); }
+html[data-theme="dark"] .tabbar { background: rgba(34, 29, 24, 0.96); }
+
+@media (max-width: 860px) {
+  .btn { white-space: normal; }
+  .platform-card .best { white-space: normal; }
+  .platform-card .p-head { flex-wrap: wrap; justify-content: flex-start; }
+  .site-footer a { min-height: 44px; }
+}
+
+@page { size: A4; margin: 14mm; }
+
+@media print {
+  .read-row,
+  .practice-actions,
+  .save-hint,
+  .note-field,
+  .checklist input,
+  .progress-card,
+  figcaption a { display: none !important; }
+  .sheet-art img { max-height: 168mm; width: auto; margin-inline: auto; }
+  .sheet { break-inside: avoid; }
+  body { padding: 0; }
+}
+
+/* ---------- 24. 放大查看：课程图注用小按钮，练习纸用角标 ---------- */
+.fig-zoom::after { content: none; }
+.sheet-art .fig-zoom::after {
+  content: "点一下放大";
+  position: absolute;
+  right: 10px; bottom: 10px;
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  color: var(--ink-2);
+  background: color-mix(in srgb, var(--card) 82%, transparent);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.18rem 0.6rem;
+  opacity: 0.92;
+}
+.figcaption a, figcaption a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2em;
+  margin-left: 0.3em;
+  padding: 0.12rem 0.7rem;
+  border: 1px solid var(--line-2);
+  border-radius: 999px;
+  background: var(--paper-2);
+  color: var(--accent-deep);
+  text-decoration: none;
+  font-size: 0.86em;
+  white-space: nowrap;
+}
+figcaption a:hover { border-color: var(--accent); background: var(--accent-soft); }
+
+/* ---------- 25. 看图提示 ---------- */
+.fig-help {
+  font-size: 0.82rem;
+  color: var(--muted);
+  margin: -0.2rem 0 1.2rem;
+}
