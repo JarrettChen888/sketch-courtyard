@@ -1337,3 +1337,17 @@ html, body { overflow-x: hidden; }
 @media print {
   .fig-zoom::after { display: none !important; }
 }
+
+/* ---------- 21. 二维码卡片 ---------- */
+.qr-card { display: flex; gap: 1.5rem; align-items: center; }
+.qr-art img {
+  width: 170px; height: 170px;
+  background: #fffdf8;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 4px;
+}
+@media (max-width: 640px) {
+  .qr-card { flex-direction: column; align-items: flex-start; gap: 1rem; }
+  .qr-art img { width: 150px; height: 150px; }
+}

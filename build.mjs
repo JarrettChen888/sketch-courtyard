@@ -850,6 +850,15 @@ function buildHelp() {
       </div>
     </div>
 
+    <div class="card card-pad qr-card" style="margin-bottom:2.4rem">
+      <div class="qr-art"><img src="assets/img/qr-site.svg" width="170" height="170" alt="二维码：用手机扫码打开素描小院"></div>
+      <div>
+        <h3>用手机扫一下，直接打开</h3>
+        <p class="muted">用手机相机扫这个码（用微信扫也可以），就能在手机上打开小院。打开以后，按上面第 5 条，把它添加到手机桌面，下次点一下就能进。</p>
+        <p class="small muted">网址：<a href="https://jarrettchen888.github.io/sketch-courtyard/">jarrettchen888.github.io/sketch-courtyard</a></p>
+      </div>
+    </div>
+
     <section class="block" aria-labelledby="h-faq">
       <div class="block-num">常见问题</div>
       <h2 id="h-faq"><span class="h-mark" aria-hidden="true"></span>她最想问的十个问题</h2>
